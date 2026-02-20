@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\interviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\interviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\companyprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\companyprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\services\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\services\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\dtos\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\dtos\\passwordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\dtos\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\dtos\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\dtos\\controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\dtos\\controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\qualificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\qualificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\data\\hrdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\data\\hrdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\employeeaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\employeeaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\onboardingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\onboardingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|c:\\users\\oneva\\source\\repos\\humanresourcemanagementapi\\humanresourcemanagementapi\\controllers\\trainingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C095AB6-A981-4459-BC27-353A18864BB3}|HumanResourceManagementApi\\Core.HumanResourceManagementApi.csproj|solutionrelative:humanresourcemanagementapi\\controllers\\trainingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\DTOs\\IEmailService.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\DTOs\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\DTOs\\IEmailService.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\DTOs\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T07:54:26.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAEoCAAAAAAAAAAAwwEcCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:21:42.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompanyProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\CompanyProfileController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\CompanyProfileController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\CompanyProfileController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\CompanyProfileController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA4wI0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T07:34:55.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InterviewController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\InterviewController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\InterviewController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\InterviewController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\InterviewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQBAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T10:01:48.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAALIBAAAAAAAAAAAqwFQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T09:35:02.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:52:26.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\DTOs\\PasswordGenerator.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\DTOs\\PasswordGenerator.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\DTOs\\PasswordGenerator.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\DTOs\\PasswordGenerator.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T07:55:38.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService .cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Services\\UserService .cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Services\\UserService .cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Services\\UserService .cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Services\\UserService .cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T08:00:30.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Services\\IUserService.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T08:00:26.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QualificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\QualificationsController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\QualificationsController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\QualificationsController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\QualificationsController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwEkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T12:51:28.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Controllers.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\DTOs\\Controllers.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\DTOs\\Controllers.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\DTOs\\Controllers.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\DTOs\\Controllers.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAUwPUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T18:50:48.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T07:42:44.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HRDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Data\\HRDataContext.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Data\\HRDataContext.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Data\\HRDataContext.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Data\\HRDataContext.cs",
+              "ViewState": "AgIAADABAAAAAAAAAAAkwEEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T17:18:07.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\EmployeeAccountController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\EmployeeAccountController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\EmployeeAccountController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\EmployeeAccountController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T09:46:40.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\ApplicationController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\ApplicationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T18:22:45.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Models\\Employee.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T18:50:31.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\LeaveController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\LeaveController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\LeaveController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\LeaveController.cs",
+              "ViewState": "AgIAAPcDAAAAAAAAAAAYwEsCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T09:14:19.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T07:30:21.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TrainingController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\TrainingController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\TrainingController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\TrainingController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\TrainingController.cs",
+              "ViewState": "AgIAAJkCAAAAAAAAAAAAAJkCAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:56:28.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OnboardingController.cs",
+              "DocumentMoniker": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\OnboardingController.cs",
+              "RelativeDocumentMoniker": "HumanResourceManagementApi\\Controllers\\OnboardingController.cs",
+              "ToolTip": "C:\\Users\\oneva\\source\\repos\\HumanResourceManagementApi\\HumanResourceManagementApi\\Controllers\\OnboardingController.cs",
+              "RelativeToolTip": "HumanResourceManagementApi\\Controllers\\OnboardingController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAADwvxgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T08:01:27.63Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

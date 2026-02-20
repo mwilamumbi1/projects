@@ -1,0 +1,2405 @@
+[
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ApplicationController",
+    "Method": "AddApplication",
+    "RelativePath": "api/Application/AddApplication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "JobOpeningID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ApplicantName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ResumeFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ApplicationController",
+    "Method": "AddApplicationStatus",
+    "RelativePath": "api/Application/AddApplicationStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddApplicationStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ApplicationController",
+    "Method": "DeleteApplication",
+    "RelativePath": "api/Application/DeleteApplication/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ApplicationController",
+    "Method": "DownloadResume",
+    "RelativePath": "api/Application/DownloadResume/{filename}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filename",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ApplicationController",
+    "Method": "GetAllApplicants",
+    "RelativePath": "api/Application/GetAllApplicants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ApplicationController",
+    "Method": "UpdateApplication",
+    "RelativePath": "api/Application/UpdateApplication",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateApplicationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ApplicationController",
+    "Method": "UpdateApplicationStatus",
+    "RelativePath": "api/Application/UpdateApplicationStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateApplicationStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.AttendanceController",
+    "Method": "GetAttendanceWithEmployeeNames",
+    "RelativePath": "api/Attendance/GetAttendanceWithNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.CompanyProfileController",
+    "Method": "AddProfile",
+    "RelativePath": "api/CompanyProfile/AddProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Core.HumanResourceManagementApi.Controllers.CompanyProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.CompanyProfileController",
+    "Method": "GetProfile",
+    "RelativePath": "api/CompanyProfile/GetProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.CompanyProfileController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/CompanyProfile/UpdateProfile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Core.HumanResourceManagementApi.Controllers.CompanyProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ContractController",
+    "Method": "AddContract",
+    "RelativePath": "api/Contract/AddContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AddContractDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ContractController",
+    "Method": "DeleteContractById",
+    "RelativePath": "api/Contract/DeleteContract/{contractId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contractId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ContractController",
+    "Method": "GetAllContracts",
+    "RelativePath": "api/Contract/GetAllContracts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ContractController",
+    "Method": "GetContractLeavePolicy",
+    "RelativePath": "api/Contract/GetContractLeavePolicy{contractId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contractId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ContractController",
+    "Method": "UpdateContractById",
+    "RelativePath": "api/Contract/UpdateContractById",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UpdateContractDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.CountsController",
+    "Method": "TotalDepartmenntCount",
+    "RelativePath": "api/Counts/total-Department",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TotalDepartmenntCountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.CountsController",
+    "Method": "GetTotalEmployeeCount",
+    "RelativePath": "api/Counts/total-employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TotalEmployeeCountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.CountsController",
+    "Method": "TotalJobsCountDto",
+    "RelativePath": "api/Counts/total-Jobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TotalEmployeeCountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.CountsController",
+    "Method": "TotalPerfomanceCountDto",
+    "RelativePath": "api/Counts/total-Perfomance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TotalPerfomanceCountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.CountsController",
+    "Method": "TotalTrainingCountDto",
+    "RelativePath": "api/Counts/total-Training",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TotalTrainingCountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.DepartmentController",
+    "Method": "AddDepartment",
+    "RelativePath": "api/Department/AddDepartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Models.AddDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.DepartmentController",
+    "Method": "DeleteDepartment",
+    "RelativePath": "api/Department/DeleteDepartment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Models.DeleteDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.DepartmentController",
+    "Method": "GetDepartmentByName",
+    "RelativePath": "api/Department/GetDepartmentByName",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Models.GetDepartmentByNameDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.DepartmentController",
+    "Method": "GetDepartmentManagers",
+    "RelativePath": "api/Department/GetDepartmentManagers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.DepartmentController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "api/Department/UpdateDepartment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Models.UpdateDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeeAccountController",
+    "Method": "CreateAccount",
+    "RelativePath": "api/EmployeeAccount/CreateAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeeAccountController",
+    "Method": "GetAllEmployeesAccountStatus",
+    "RelativePath": "api/EmployeeAccount/GetAllEmployeesAccountStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/Employees/DeleteEmployee/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "GetAllInfo",
+    "RelativePath": "api/Employees/GetAllInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "GetBankInfo",
+    "RelativePath": "api/Employees/GetBankInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "GetEmployeeById",
+    "RelativePath": "api/Employees/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "GetEmergencyInfo",
+    "RelativePath": "api/Employees/GetEmergencyInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "GetJobInfo",
+    "RelativePath": "api/Employees/GetJobInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "GetPersonalInfo",
+    "RelativePath": "api/Employees/GetPersonalInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "InsertEmployee",
+    "RelativePath": "api/Employees/InsertEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "Core.HumanResourceManagementApi.Controllers.InsertEmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "GetProfilePicture",
+    "RelativePath": "api/Employees/profile/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "UpdateBankInfo",
+    "RelativePath": "api/Employees/UpdateBankInfo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "employee",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateEmployeeBankInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "UpdateEmergencyInfo",
+    "RelativePath": "api/Employees/UpdateEmergencyInfo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "employee",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateEmployeeEmergencyInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "UpdateJobInfo",
+    "RelativePath": "api/Employees/UpdateJobInfo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "employee",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateEmployeeJobInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "UpdatePersonalInfo",
+    "RelativePath": "api/Employees/UpdatePersonalInfo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "employee",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateEmployeePersonalInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.EmployeesController",
+    "Method": "UpdateProfilePicture",
+    "RelativePath": "api/Employees/UpdateProfilePicture",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhotoFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.InterviewController",
+    "Method": "AddInterview",
+    "RelativePath": "api/Interview/AddInterview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddInterviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.InterviewController",
+    "Method": "DeleteInterview",
+    "RelativePath": "api/Interview/DeleteInterview",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.DeleteInterviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.InterviewController",
+    "Method": "GetInterviewsWithNames",
+    "RelativePath": "api/Interview/GetInterviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.InterviewController",
+    "Method": "UpdateInterview",
+    "RelativePath": "api/Interview/UpdateInterview",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateInterviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetApplicants",
+    "RelativePath": "api/Items/Applicants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "ApplicationStatus",
+    "RelativePath": "api/Items/ApplicationStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetContracts",
+    "RelativePath": "api/Items/Contracts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetDepartments",
+    "RelativePath": "api/Items/Departments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetEmployees",
+    "RelativePath": "api/Items/Employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetGenders",
+    "RelativePath": "api/Items/Genders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetUnlinkedUsers",
+    "RelativePath": "api/Items/GetUnlinkedUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetKPI",
+    "RelativePath": "api/Items/KPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetLeaves",
+    "RelativePath": "api/Items/Leaves",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetManagers",
+    "RelativePath": "api/Items/Managers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetMaritalStatuses",
+    "RelativePath": "api/Items/MaritalStatuses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetPositions",
+    "RelativePath": "api/Items/Positions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.ItemsController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Items/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.JobOpeningsController",
+    "Method": "DeleteJobOpening",
+    "RelativePath": "api/JobOpenings/DeleteJobOpening/{jobOpeningId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobOpeningId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.JobOpeningsController",
+    "Method": "GetAllJobOpenings",
+    "RelativePath": "api/JobOpenings/GetAllJobOpenings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.JobOpeningsController",
+    "Method": "GetJobOpeningById",
+    "RelativePath": "api/JobOpenings/GetJobOpeningById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.JobOpeningsController",
+    "Method": "InsertJobOpening",
+    "RelativePath": "api/JobOpenings/InsertJobOpening",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobOpening",
+        "Type": "Core.HumanResourceManagementApi.Controllers.InsertJobOpeningDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.JobOpeningsController",
+    "Method": "ToggleJobOpeningStatus",
+    "RelativePath": "api/JobOpenings/toggle-status/{jobOpeningId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobOpeningId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.JobOpeningsController",
+    "Method": "UpdateJobOpening",
+    "RelativePath": "api/JobOpenings/UpdateJobOpening",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateJobOpeningRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.KPIDefinitionController",
+    "Method": "AddKPI",
+    "RelativePath": "api/KPIDefinition/AddKPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddKPIDefinitionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.KPIDefinitionController",
+    "Method": "DeleteKPI",
+    "RelativePath": "api/KPIDefinition/DeleteKPI/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.KPIDefinitionController",
+    "Method": "GetAllKPI",
+    "RelativePath": "api/KPIDefinition/GetAllKPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.KPIDefinitionController",
+    "Method": "GetKpiDefinitionById",
+    "RelativePath": "api/KPIDefinition/GetKpiDefinitionById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.KPIDefinitionController",
+    "Method": "ToggleStatus",
+    "RelativePath": "api/KPIDefinition/ToggleStatus/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.KPIDefinitionController",
+    "Method": "UpdateKPI",
+    "RelativePath": "api/KPIDefinition/UpdateKPI",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateKPIDefinitionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "AddLeaveRequest",
+    "RelativePath": "api/Leave/AddLeaveRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.AddLeaveRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "AddLeaveStatus",
+    "RelativePath": "api/Leave/AddLeaveStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.AddLeaveStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "AddLeaveType",
+    "RelativePath": "api/Leave/AddLeaveType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leaveTypeDto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.AddLeaveTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "GetAllContractLeaveTypes",
+    "RelativePath": "api/Leave/AllContractLeaveTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.HumanResourceManagementApi.DTOs.AllContractLeaveTypeDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "GetAllLeaveRequests",
+    "RelativePath": "api/Leave/AllLeaveRequests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.HumanResourceManagementApi.DTOs.LeaveRequestDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "GetAllLeaveTypes",
+    "RelativePath": "api/Leave/AllLeaveTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.HumanResourceManagementApi.DTOs.LeaveTypeDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "LeaveStatus",
+    "RelativePath": "api/Leave/AllLeaveTypesstatuses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.HumanResourceManagementApi.DTOs.LeaveStatusDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "AllocateAnnualLeave",
+    "RelativePath": "api/Leave/AllocateAnnualLeave",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.AllocateAnnualLeaveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "ApproveLeaveRequest",
+    "RelativePath": "api/Leave/ApproveLeaveRequest/{leaveRequestId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leaveRequestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "ApproveLeaveRequestByBody",
+    "RelativePath": "api/Leave/ApproveLeaveRequestByBody",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "approveLeaveDto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.ApproveLeaveRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "AssignLeaveToContract",
+    "RelativePath": "api/Leave/AssignLeaveToContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignLeaveDto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.AssignLeaveToContractDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "GetContractLeavePolicy",
+    "RelativePath": "api/Leave/ContractLeavePolicy/{contractType}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contractType",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.HumanResourceManagementApi.DTOs.ContractLeavePolicyResultDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "DeleteLeavePolicy",
+    "RelativePath": "api/Leave/DeleteLeavePolicy/{leavePolicyId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leavePolicyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "DeleteLeaveStatus",
+    "RelativePath": "api/Leave/DeleteLeaveStatus/{statusId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "statusId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "DeleteLeaveType",
+    "RelativePath": "api/Leave/DeleteLeaveType/{leaveTypeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leaveTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "GetLeaveRequestsByEmployee",
+    "RelativePath": "api/Leave/GetByEmployee/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "UpdateLeavePolicy",
+    "RelativePath": "api/Leave/UpdateLeavePolicy",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.UpdateLeavePolicyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "UpdateLeaveRequest",
+    "RelativePath": "api/Leave/UpdateLeaveRequest",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.UpdateLeaveRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "UpdateLeaveRequestStatus",
+    "RelativePath": "api/Leave/UpdateLeaveRequestStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.UpdateLeaveRequestStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "UpdateLeaveStatus",
+    "RelativePath": "api/Leave/UpdateLeaveStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.DTOs.UpdateLeaveStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LeaveController",
+    "Method": "UpdateLeaveType",
+    "RelativePath": "api/Leave/UpdateLeaveType",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UpdateLeaveTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LoginController",
+    "Method": "AddUser",
+    "RelativePath": "api/Login/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LoginController",
+    "Method": "GetAllLogs",
+    "RelativePath": "api/Login/LOGS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.LoginController",
+    "Method": "GetPermissions",
+    "RelativePath": "api/Login/Permissions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.NotificationsController",
+    "Method": "CreateNotification",
+    "RelativePath": "api/Notifications/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.ERP.DTOs.HR.CreateNotificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.NotificationsController",
+    "Method": "GetByEmployee",
+    "RelativePath": "api/Notifications/employee/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isRead",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.HumanResourceManagementApi.Controllers.ERP.DTOs.HR.NotificationDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.NotificationsController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/Notifications/mark-as-read",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.ERP.DTOs.HR.MarkNotificationAsReadDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.NotificationsController",
+    "Method": "GetByRole",
+    "RelativePath": "api/Notifications/role/{roleName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "isRead",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.HumanResourceManagementApi.Controllers.ERP.DTOs.HR.NotificationDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.OnboardingController",
+    "Method": "HireCandidate",
+    "RelativePath": "api/Onboarding/hire",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HireCandidateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.OnboardingController",
+    "Method": "GetHiredInterviews",
+    "RelativePath": "api/Onboarding/hired",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.OnboardingController",
+    "Method": "GetUnhiredInterviews",
+    "RelativePath": "api/Onboarding/unhired",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PayrollController",
+    "Method": "GetPayrollBankDetails",
+    "RelativePath": "api/Payroll/BankDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PayrollController",
+    "Method": "GetPayrollHistory",
+    "RelativePath": "api/Payroll/GetPayrollHistory/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PerformanceController",
+    "Method": "AddEmployeePerformance",
+    "RelativePath": "api/Performance/AddEmployeePerformance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AddEmployeePerformanceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PerformanceController",
+    "Method": "GetReviewsByReviewer",
+    "RelativePath": "api/Performance/ByReviewer/{reviewerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.HumanResourceManagementApi.Controllers.PerformanceController\u002BReviewByReviewerDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PerformanceController",
+    "Method": "DeletEmployeePerformanceReview",
+    "RelativePath": "api/Performance/DeleteEmployeePerformanceReview",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DeleteeEmployeePerformanceReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PerformanceController",
+    "Method": "DeletePerformanceReview",
+    "RelativePath": "api/Performance/DeletePerformanceReview",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.DeletePerformanceReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PerformanceController",
+    "Method": "GetAllEmployeePerformance",
+    "RelativePath": "api/Performance/GetAllEmployeePerformance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PerformanceController",
+    "Method": "GetDepartmentPerformanceSummary",
+    "RelativePath": "api/Performance/GetDepartmentPerformanceSummary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PerformanceController",
+    "Method": "GetEmployeePerformanceSummary",
+    "RelativePath": "api/Performance/GetEmployeePerformanceSummary/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PerformanceController",
+    "Method": "UpdateEmployeePerformance",
+    "RelativePath": "api/Performance/UpdateEmployeePerformance",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UpdateEmployeePerformanceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PerformanceController",
+    "Method": "UpdateReviewIndicator",
+    "RelativePath": "api/Performance/UpdateReviewIndicator",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UpdateReviewIndicatorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PermissionsController",
+    "Method": "AddRolePermission",
+    "RelativePath": "api/Permissions/AddPermissions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RolePermissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.HumanResourceManagementApi.Controllers.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PermissionsController",
+    "Method": "DeleteRolePermission",
+    "RelativePath": "api/Permissions/DeleteRolePermission",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DeleteRolePermissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PermissionsController",
+    "Method": "GetAllPermissions",
+    "RelativePath": "api/Permissions/GetPermissions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[getPermissionDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PermissionsController",
+    "Method": "GetRolePermissionsWithDetails",
+    "RelativePath": "api/Permissions/GetRolePermissionsWithDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RolePermissionDetailDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PermissionsController",
+    "Method": "UpdateRolePermission",
+    "RelativePath": "api/Permissions/UpdateRolePermission",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UpdateRolePermissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.HumanResourceManagementApi.Controllers.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PermissionsController",
+    "Method": "GetPermissionsByUserId",
+    "RelativePath": "api/Permissions/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PermissionDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PositionController",
+    "Method": "AddPosition",
+    "RelativePath": "api/Position/AddPosition",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AddPositionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PositionController",
+    "Method": "GetAllPositions",
+    "RelativePath": "api/Position/AllPositions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PositionWithEmployeesDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PositionController",
+    "Method": "DeletePosition",
+    "RelativePath": "api/Position/DeletePosition/{positionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "positionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PositionController",
+    "Method": "GetPositionById",
+    "RelativePath": "api/Position/GetPositionById{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.PositionController",
+    "Method": "UpdatePosition",
+    "RelativePath": "api/Position/UpdatePosition",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UpdatePositionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.QualificationsController",
+    "Method": "GetEmployeeQualificationsByID",
+    "RelativePath": "api/Qualifications/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.QualificationsController",
+    "Method": "AddQualification",
+    "RelativePath": "api/Qualifications/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddUpdateQualificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.QualificationsController",
+    "Method": "GetAllEmployeesQualifications",
+    "RelativePath": "api/Qualifications/GetAllEmployeesQualifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.QualificationsController",
+    "Method": "UpdateQualification",
+    "RelativePath": "api/Qualifications/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddUpdateQualificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.RolesController",
+    "Method": "AddRole",
+    "RelativePath": "api/Roles/AddRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.HumanResourceManagementApi.Controllers.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.RolesController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/Roles/DeleteRole",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.DeleteRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.HumanResourceManagementApi.Controllers.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.RolesController",
+    "Method": "GetallRoles",
+    "RelativePath": "api/Roles/GetRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.RolesController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Roles/UpdateRoles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.HumanResourceManagementApi.Controllers.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "GetTrainingById",
+    "RelativePath": "api/Training/{trainingId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trainingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "AddEmployeeTraining",
+    "RelativePath": "api/Training/AddEmployeeTraining",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddEmployeeTrainingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "Training",
+    "RelativePath": "api/Training/AddTraining",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.AddTrainingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "DeleteEmployeeTraining",
+    "RelativePath": "api/Training/DeleteEmployeeTraining",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.DeleteEmployeeTrainingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "DeleteTraining",
+    "RelativePath": "api/Training/Deletetraining",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.DeleteTrainingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "GetAllEmployeeTraining",
+    "RelativePath": "api/Training/GetAllEmployeeTraining",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "GetPersonalInfo",
+    "RelativePath": "api/Training/GetTrainingInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "GetEmployeeTrainingsByEmployeeId",
+    "RelativePath": "api/Training/GetTrainingsByEmployeeId/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.HumanResourceManagementApi.Controllers.EmployeeTrainingResultDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "UpdateEmployeeTraining",
+    "RelativePath": "api/Training/UpdateEmployeeTraining",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateEmployeeTrainingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.TrainingController",
+    "Method": "UpdateTraining",
+    "RelativePath": "api/Training/UpdateTraining",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Core.HumanResourceManagementApi.Controllers.UpdateTrainingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.UpdateReviewObjectiveController",
+    "Method": "UpdateReviewObjectiveByBody",
+    "RelativePath": "api/UpdateReviewObjective",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateObjectiveDto",
+        "Type": "Core.HumanResourceManagementApi.Models.UpdateReviewObjectiveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.UpdateReviewObjectiveController",
+    "Method": "UpdateReviewObjective",
+    "RelativePath": "api/UpdateReviewObjective/{objectiveId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objectiveId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateObjectiveDto",
+        "Type": "Core.HumanResourceManagementApi.Models.UpdateReviewObjectiveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.UsersController",
+    "Method": "GetActiveInactiveEmployees",
+    "RelativePath": "api/Users/active-inactive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EmployeeStatusDto, Core.HumanResourceManagementApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.UsersController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/Users/GetUserDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.UsersController",
+    "Method": "ToggleEmployeeStatus",
+    "RelativePath": "api/Users/toggle-status/{employeeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Core.HumanResourceManagementApi.Controllers.UsersController",
+    "Method": "UpdateUserRole",
+    "RelativePath": "api/Users/UpdateUserRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UpdateUserRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
